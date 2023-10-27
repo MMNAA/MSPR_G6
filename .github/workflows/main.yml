@@ -7,7 +7,7 @@ jobs:
     steps:
     - uses: actions/checkout@master
     - run: |
-          jar cvf boris.war *
+          jar cvf groupe6.war *
     - name: copy file via ssh password
       uses: appleboy/scp-action@master
       with:
